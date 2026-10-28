@@ -1,0 +1,11 @@
+{
+  "name": "monochrome-blog",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "dev": "node scripts/hugo.mjs dev",
+    "build": "node scripts/hugo.mjs build",
+    "check": "node scripts/check.mjs"
+  }
+}

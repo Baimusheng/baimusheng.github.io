@@ -1,0 +1,81 @@
+baseURL = "https://monochrome-blog-cfran.wiry-kite-7585.chatgpt.site/"
+title = "百木生的博客"
+theme = "monochrome"
+locale = "zh-CN"
+defaultContentLanguage = "zh-cn"
+hasCJKLanguage = true
+enableRobotsTXT = true
+enableEmoji = true
+summaryLength = 100
+
+[pagination]
+pagerSize = 8
+
+[taxonomies]
+tag = "tags"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+navbar_title = "百木生"
+description = "个人文章与笔记"
+color_scheme = "light"
+navbar_width = "wide"
+hide_navbar_on_scroll = false
+navbar_show_all_languages = false
+enable_site_search = true
+enable_toc = true
+toc_position = "right"
+enable_zooming_js = true
+enable_header_anchor = true
+enable_open_graph = true
+enable_twitter_cards = true
+
+[params.author]
+name = "百木生"
+
+[params.list_layout]
+enable_group_by_year = true
+enable_show_date = true
+enable_pagination = false
+
+[params.syntax_highlight]
+lib = "builtin"
+
+[params.syntax_highlight.builtin]
+enable_code_copy = true
+
+[markup.goldmark.renderer]
+unsafe = false
+
+[markup.highlight]
+noClasses = true
+style = "github-dark"
+lineNos = false
+
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 3
+ordered = false
+
+[[menus.navbar]]
+name = "首页"
+url = "/"
+weight = 10
+
+[[menus.navbar]]
+name = "归档"
+url = "/posts/"
+weight = 20
+
+[[menus.navbar]]
+identifier = "tags"
+name = "标签"
+url = "/tags/"
+weight = 30
+
+[[menus.navbar]]
+name = "关于"
+url = "/about/"
+weight = 40

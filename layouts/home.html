@@ -1,0 +1,9 @@
+{{ define "content" }}
+<section class="home-heading">
+  <h1>{{ .Title }}</h1>
+</section>
+{{ with .Content }}<div class="content-margin">{{ partial "content.html" (dict "ctx" $ "content" .) }}</div>{{ end }}
+{{ $posts := (where .Site.RegularPages "Section" "posts").ByDate.Reverse }}
+{{ $paginator := .Paginate $posts }}
+{{ partial "postcard/layout.html" (dict "pages" $posts "ctx" .) }}
+{{ end }}

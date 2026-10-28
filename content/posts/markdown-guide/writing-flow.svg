@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+  <title id="title">从观察到成文</title>
+  <desc id="desc">观察、记录、成文三个步骤由箭头依次连接。</desc>
+  <rect width="960" height="360" rx="16" fill="#f5f5f3"/>
+  <g fill="none" stroke="#b8b8b3" stroke-width="1">
+    <path d="M48 72H912M48 288H912"/>
+    <path d="M48 120H912M48 240H912" stroke-dasharray="3 7"/>
+  </g>
+  <g fill="#fff" stroke="#353535" stroke-width="1.5">
+    <rect x="76" y="124" width="204" height="112" rx="6"/>
+    <rect x="378" y="124" width="204" height="112" rx="6"/>
+    <rect x="680" y="124" width="204" height="112" rx="6"/>
+  </g>
+  <g stroke="#626262" stroke-width="1.5" fill="none">
+    <path d="M298 180H358M350 174L358 180L350 186"/>
+    <path d="M600 180H660M652 174L660 180L652 186"/>
+  </g>
+  <g font-family="system-ui, -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">
+    <g font-size="25" fill="#242424">
+      <text x="178" y="172">观察</text>
+      <text x="480" y="172">记录</text>
+      <text x="782" y="172">成文</text>
+    </g>
+    <g font-size="14" fill="#707070">
+      <text x="178" y="205">留下具体的细节</text>
+      <text x="480" y="205">整理问题与线索</text>
+      <text x="782" y="205">把联系说明清楚</text>
+    </g>
+  </g>
+</svg>

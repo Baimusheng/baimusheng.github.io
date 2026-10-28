@@ -1,0 +1,9 @@
+"tags" = "标签"
+"recent_posts" = "最新文章"
+"toc" = "文章目录"
+"no_page_under_resources" = '{{ .resources_path }} 下没有找到页面，请检查 {{ .resources_name }} 的配置。'
+"resources_not_found" = '找不到资源，请检查 {{ .resources_name }} 的配置。'
+"search" = "搜索文章"
+"changelogs" = "更新记录"
+"dark_mode_btn_tooltip" = "切换至深色模式"
+"light_mode_btn_tooltip" = "切换至浅色模式"
