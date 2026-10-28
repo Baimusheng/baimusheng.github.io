@@ -83,7 +83,7 @@ node scripts/hugo.mjs new content posts/my-first-note/index.md
 
 ## 3.1 GitHub Pages 自动发布
 
-正式访问地址配置为 `https://baimusheng.github.io/`，对应仓库名称 `Baimusheng.github.io`。可将原有 `Blog` 仓库直接改名，无需新建项目或购买域名。
+正式访问地址配置为 `https://baimusheng.github.io/`，对应仓库为 [Baimusheng/baimusheng.github.io](https://github.com/Baimusheng/baimusheng.github.io)，沿用原有博客仓库，无需购买域名。
 
 仓库已提供 `.github/workflows/pages.yml`。开通后，每次向 `main` 推送文章或代码都会构建、检查并发布，也可以在 Actions 页面手动运行。
 
@@ -96,7 +96,7 @@ node scripts/hugo.mjs new content posts/my-first-note/index.md
 
 工作流会使用 GitHub 返回的 `base_url` 覆盖构建地址，兼容 `https://用户名.github.io/仓库名/` 这样的子路径。源码中不需要写入令牌。是否可以从私有仓库发布取决于 GitHub 账户计划与仓库设置。
 
-当前只提供并本地检查了工作流文件；这不表示 GitHub Pages 已开启，也不表示本地改动已经推送到 `origin`。
+本地检查通过不代表 GitHub Pages 已上线，实际发布结果以 Actions 部署状态和站点访问为准。GitHub Free 需使用公开仓库才能启用 Pages；私有仓库需受支持的付费计划。
 
 ## 3.2 Sites 私密预览
 

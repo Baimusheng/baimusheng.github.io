@@ -136,7 +136,7 @@
 ## 6.2 分支与远程仓库
 
 * 主分支名称为 `main`。
-* 远程仓库名称为 `origin`，地址为 `git@github.com:Baimusheng/Blog.git`。
+* 远程仓库名称为 `origin`，地址为 `https://github.com/Baimusheng/baimusheng.github.io.git`。
 * 新建功能或模块分支时遵循第三章约定。
 * 提交、推送、合并、创建标签和远程发布按当前任务授权执行；本地配置或验证通过不代表已经推送到 `origin` 或启用 GitHub Pages。
 
